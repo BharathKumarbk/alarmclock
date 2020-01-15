@@ -38,10 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Container(
                     decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.only(
-                          bottomLeft: Radius.circular(30.0),
-                          bottomRight:  Radius.circular(30.0),
-                        ),
+                        borderRadius: BorderRadius.circular(30.0),
                          boxShadow: [
                               BoxShadow(
                                   color: Colors.black12,
